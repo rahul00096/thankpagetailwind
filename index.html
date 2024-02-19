@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header with Logo - Tailwind CSS</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body class="bg-fixed bg-cover bg-center" style="background-image: url('mountain.jpg');">
+    <header class="flex justify-center py-4 bg-blue-800">
+        <img src="mountain.jpg" alt="Logo" class="h-12">
+    </header>
+    <div class="bg-white max-w-xl mx-auto mt-4 mb-16">
+
+        <div class="max-w-xl mx-auto bg-white p-6 text-center w-full">
+
+            <h1 class="text-6xl mb-4 text-blue-500 mt-6">Thank You</h1>
+            <div class="flex justify-center items-center mt-14">
+                <hr class="border-yellow-400 border-2 w-12 rounded-full">
+            </div>
+            <p class="text-lg text-gray-800 mt-4"><b>Lorem ipsum dolor sit amet.</b> consectetur adipiscing elit.
+                Sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p class="text-lg text-gray-800 mt-4"><b class="text-green-400">card payment received.</b> Transaction
+                Id:
+                #576578564545</p>
+            <button class="bg-blue-700 text-white font-bold py-3 px-4 rounded w-70 mt-4">
+                Download Your Gift
+                <i class="fa fa-download ml-2 text-yellow-400" aria-hidden="true"></i>
+            </button>
+
+            <div>
+                <h2 class="text-3xl text-blue-500 font-bold text-gray-800 mb-6 mt-6 mb-0">Unlock More with
+                    myCompassion
+                </h2>
+            </div><br>
+        </div>
+
+        <div
+            class="max-w-xl bg-gray-200 rounded-lg mx-auto bg- shadow-lg p-6 text-center w-full  py-5 h-80 mt-20 flex flex-col items-center justify-center">
+
+            <br><br>
+            <img src="download.png" alt="Image" style="margin-top: -260px;"
+                class="w-96  h-auto rounded-lg mb-5 absolute"><br>
+
+            <div class="mt-10">
+                <p class="text-lg text-gray-800">Lorem ipsum dolor sit amet, consectetur adipiscing edunt ut
+                    labore
+                    et dolore magna aliqua.</p>
+            </div>
+            <button class="bg-custom-green text-white font-bold py-3 px-4 rounded w-full mt-4">
+                Download Your Gift
+                <i class="fa fa-download ml-2 text-yellow-400" aria-hidden="true"></i>
+            </button>
+
+        </div>
+
+
+    </div>
+
+
+
+    <style>
+        .bg-custom-green {
+            background-color: #02a649;
+        }
+
+        .bg-custom-green:hover {
+            background-color: #028e42;
+            /* You can adjust the hover color if needed */
+        }
+
+        @font-face {
+            font-family: myfont;
+            src: url(charlotte.ttf);
+        }
+
+        h1 {
+            font-family: myfont;
+        }
+    </style>
+
+</body>
+
+</html>
